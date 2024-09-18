@@ -80,6 +80,17 @@ nav.custom_navigation img {
     padding: 3px;
 }
 
+.slogan h1 {
+    color: white;
+    font-size: 8ch;
+}
+
+.custom-block-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+
 .custom-block {
     display: block;
     max-width: 700px;
@@ -91,6 +102,33 @@ nav.custom_navigation img {
     white-space: normal;
 }
 
+.custom-block li {
+    color: #403C3C;
+    font-weight: bold;
+    font-size: x-large;
+}
+
+.custom-block h2 {
+    color: black;
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+}
+
+.custom-form {
+    color: black;
+    font-weight: bold;
+    font-size: large
+}
+
+.custom-form button {
+    color: #fff;
+    background-color: #87B188;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
 .custom-block-footer {
     display: inline-block;
     max-width: 700px;
@@ -100,6 +138,11 @@ nav.custom_navigation img {
     border-radius: 10px;
     overflow-wrap: break-word;
     white-space: normal;
+}
+
+.block-footer {
+    display: flex;
+    justify-content: space-between;
 }
 
 .carousel-container {
@@ -155,6 +198,8 @@ h1 {
 
     font-weight: bold;
 }
+
+
 .container-main-table {
     width: 80%;
     margin: 0 auto;
@@ -188,6 +233,7 @@ h1 {
     background-color: #D9D9D9;
     font-size: xx-large;
 }
+
 .icon img {
     height: 50px;
     width: 50px;
